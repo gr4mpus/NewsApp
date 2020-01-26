@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{fullArticle.name}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-img [src]="fullArticle.urlToImage"></ion-img>
+  {{fullArticle.author}}
+  <br>
+  {{fullArticle.content}}
+</ion-content>
